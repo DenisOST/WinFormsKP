@@ -89,9 +89,10 @@ namespace WinFormsKP
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 57);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(36, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(47, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             this.label1.Visible = false;
@@ -99,9 +100,10 @@ namespace WinFormsKP
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 79);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(36, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "label2";
             this.label2.Visible = false;
@@ -109,9 +111,10 @@ namespace WinFormsKP
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 108);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(36, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(47, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "label3";
             this.label3.Visible = false;
@@ -119,9 +122,10 @@ namespace WinFormsKP
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 133);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(36, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(47, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
             this.label4.Visible = false;
@@ -129,9 +133,10 @@ namespace WinFormsKP
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 165);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(36, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(47, 15);
             this.label5.TabIndex = 4;
             this.label5.Text = "label5";
             this.label5.Visible = false;
@@ -139,9 +144,10 @@ namespace WinFormsKP
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 193);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(36, 279);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(47, 15);
             this.label6.TabIndex = 5;
             this.label6.Text = "label6";
             this.label6.Visible = false;
@@ -149,9 +155,10 @@ namespace WinFormsKP
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(36, 219);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(36, 330);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(47, 15);
             this.label7.TabIndex = 6;
             this.label7.Text = "label7";
             this.label7.Visible = false;
@@ -159,9 +166,10 @@ namespace WinFormsKP
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(36, 243);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(36, 381);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(47, 15);
             this.label8.TabIndex = 7;
             this.label8.Text = "label8";
             this.label8.Visible = false;
@@ -169,9 +177,10 @@ namespace WinFormsKP
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(36, 267);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(36, 432);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(47, 15);
             this.label9.TabIndex = 8;
             this.label9.Text = "label9";
             this.label9.Visible = false;
@@ -179,9 +188,10 @@ namespace WinFormsKP
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(36, 294);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(36, 484);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(55, 15);
             this.label10.TabIndex = 9;
             this.label10.Text = "label10";
             this.label10.Visible = false;
@@ -190,7 +200,7 @@ namespace WinFormsKP
             // 
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(578, 37);
+            this.groupBox1.Location = new System.Drawing.Point(681, 19);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 33);
             this.groupBox1.TabIndex = 10;
@@ -223,7 +233,7 @@ namespace WinFormsKP
             // 
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Location = new System.Drawing.Point(578, 76);
+            this.groupBox2.Location = new System.Drawing.Point(681, 68);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 33);
             this.groupBox2.TabIndex = 11;
@@ -256,7 +266,7 @@ namespace WinFormsKP
             // 
             this.groupBox3.Controls.Add(this.radioButton5);
             this.groupBox3.Controls.Add(this.radioButton6);
-            this.groupBox3.Location = new System.Drawing.Point(578, 115);
+            this.groupBox3.Location = new System.Drawing.Point(681, 118);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 33);
             this.groupBox3.TabIndex = 11;
@@ -289,7 +299,7 @@ namespace WinFormsKP
             // 
             this.groupBox4.Controls.Add(this.radioButton7);
             this.groupBox4.Controls.Add(this.radioButton8);
-            this.groupBox4.Location = new System.Drawing.Point(578, 154);
+            this.groupBox4.Location = new System.Drawing.Point(681, 168);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 33);
             this.groupBox4.TabIndex = 11;
@@ -322,7 +332,7 @@ namespace WinFormsKP
             // 
             this.groupBox5.Controls.Add(this.radioButton9);
             this.groupBox5.Controls.Add(this.radioButton10);
-            this.groupBox5.Location = new System.Drawing.Point(578, 193);
+            this.groupBox5.Location = new System.Drawing.Point(681, 219);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(200, 33);
             this.groupBox5.TabIndex = 11;
@@ -355,7 +365,7 @@ namespace WinFormsKP
             // 
             this.groupBox6.Controls.Add(this.radioButton11);
             this.groupBox6.Controls.Add(this.radioButton12);
-            this.groupBox6.Location = new System.Drawing.Point(578, 232);
+            this.groupBox6.Location = new System.Drawing.Point(681, 269);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(200, 33);
             this.groupBox6.TabIndex = 11;
@@ -388,7 +398,7 @@ namespace WinFormsKP
             // 
             this.groupBox7.Controls.Add(this.radioButton13);
             this.groupBox7.Controls.Add(this.radioButton14);
-            this.groupBox7.Location = new System.Drawing.Point(578, 274);
+            this.groupBox7.Location = new System.Drawing.Point(681, 320);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(200, 33);
             this.groupBox7.TabIndex = 11;
@@ -421,7 +431,7 @@ namespace WinFormsKP
             // 
             this.groupBox8.Controls.Add(this.radioButton15);
             this.groupBox8.Controls.Add(this.radioButton16);
-            this.groupBox8.Location = new System.Drawing.Point(578, 313);
+            this.groupBox8.Location = new System.Drawing.Point(681, 371);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(200, 33);
             this.groupBox8.TabIndex = 11;
@@ -454,7 +464,7 @@ namespace WinFormsKP
             // 
             this.groupBox9.Controls.Add(this.radioButton17);
             this.groupBox9.Controls.Add(this.radioButton18);
-            this.groupBox9.Location = new System.Drawing.Point(578, 352);
+            this.groupBox9.Location = new System.Drawing.Point(681, 422);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(200, 33);
             this.groupBox9.TabIndex = 11;
@@ -487,7 +497,7 @@ namespace WinFormsKP
             // 
             this.groupBox10.Controls.Add(this.radioButton19);
             this.groupBox10.Controls.Add(this.radioButton20);
-            this.groupBox10.Location = new System.Drawing.Point(578, 391);
+            this.groupBox10.Location = new System.Drawing.Point(681, 474);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(200, 33);
             this.groupBox10.TabIndex = 11;
@@ -520,9 +530,9 @@ namespace WinFormsKP
             // 
             this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(289, 526);
+            this.button1.Location = new System.Drawing.Point(681, 536);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(204, 59);
+            this.button1.Size = new System.Drawing.Size(200, 59);
             this.button1.TabIndex = 12;
             this.button1.Text = "Завершить опрос";
             this.button1.UseVisualStyleBackColor = false;
@@ -531,18 +541,20 @@ namespace WinFormsKP
             // labelPatient
             // 
             this.labelPatient.AutoSize = true;
-            this.labelPatient.Location = new System.Drawing.Point(12, 437);
+            this.labelPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPatient.Location = new System.Drawing.Point(36, 536);
             this.labelPatient.Name = "labelPatient";
-            this.labelPatient.Size = new System.Drawing.Size(41, 13);
+            this.labelPatient.Size = new System.Drawing.Size(60, 20);
             this.labelPatient.TabIndex = 13;
             this.labelPatient.Text = "label11";
             // 
             // labelDoctor
             // 
             this.labelDoctor.AutoSize = true;
-            this.labelDoctor.Location = new System.Drawing.Point(12, 464);
+            this.labelDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDoctor.Location = new System.Drawing.Point(36, 575);
             this.labelDoctor.Name = "labelDoctor";
-            this.labelDoctor.Size = new System.Drawing.Size(41, 13);
+            this.labelDoctor.Size = new System.Drawing.Size(60, 20);
             this.labelDoctor.TabIndex = 14;
             this.labelDoctor.Text = "label12";
             // 
@@ -551,7 +563,7 @@ namespace WinFormsKP
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 597);
+            this.ClientSize = new System.Drawing.Size(903, 607);
             this.Controls.Add(this.labelDoctor);
             this.Controls.Add(this.labelPatient);
             this.Controls.Add(this.button1);
