@@ -29,13 +29,143 @@ namespace WinFormsKP
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.TextBoxSurnamePatient = new System.Windows.Forms.TextBox();
+            this.LabelSurnamePatient = new System.Windows.Forms.Label();
+            this.LabelNamePatient = new System.Windows.Forms.Label();
+            this.LabelPatronymicPatient = new System.Windows.Forms.Label();
+            this.TextBoxNamePatient = new System.Windows.Forms.TextBox();
+            this.TextBoxPatronymicPatient = new System.Windows.Forms.TextBox();
+            this.LabelPatient = new System.Windows.Forms.Label();
+            this.ButtonStart = new System.Windows.Forms.Button();
+            this.ComboBoxSelectDoctor = new System.Windows.Forms.ComboBox();
+            this.SuspendLayout();
+            // 
+            // TextBoxSurnamePatient
+            // 
+            this.TextBoxSurnamePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextBoxSurnamePatient.Location = new System.Drawing.Point(162, 79);
+            this.TextBoxSurnamePatient.Name = "TextBoxSurnamePatient";
+            this.TextBoxSurnamePatient.Size = new System.Drawing.Size(147, 22);
+            this.TextBoxSurnamePatient.TabIndex = 0;
+            // 
+            // LabelSurnamePatient
+            // 
+            this.LabelSurnamePatient.AutoSize = true;
+            this.LabelSurnamePatient.BackColor = System.Drawing.SystemColors.Window;
+            this.LabelSurnamePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelSurnamePatient.Location = new System.Drawing.Point(8, 82);
+            this.LabelSurnamePatient.Name = "LabelSurnamePatient";
+            this.LabelSurnamePatient.Size = new System.Drawing.Size(148, 16);
+            this.LabelSurnamePatient.TabIndex = 1;
+            this.LabelSurnamePatient.Text = "Введите фамилию:";
+            // 
+            // LabelNamePatient
+            // 
+            this.LabelNamePatient.AutoSize = true;
+            this.LabelNamePatient.BackColor = System.Drawing.SystemColors.Window;
+            this.LabelNamePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelNamePatient.Location = new System.Drawing.Point(8, 107);
+            this.LabelNamePatient.Name = "LabelNamePatient";
+            this.LabelNamePatient.Size = new System.Drawing.Size(106, 16);
+            this.LabelNamePatient.TabIndex = 2;
+            this.LabelNamePatient.Text = "Введите имя:";
+            // 
+            // LabelPatronymicPatient
+            // 
+            this.LabelPatronymicPatient.AutoSize = true;
+            this.LabelPatronymicPatient.BackColor = System.Drawing.SystemColors.Window;
+            this.LabelPatronymicPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelPatronymicPatient.Location = new System.Drawing.Point(8, 134);
+            this.LabelPatronymicPatient.Name = "LabelPatronymicPatient";
+            this.LabelPatronymicPatient.Size = new System.Drawing.Size(148, 16);
+            this.LabelPatronymicPatient.TabIndex = 3;
+            this.LabelPatronymicPatient.Text = "Введите отчество:";
+            // 
+            // TextBoxNamePatient
+            // 
+            this.TextBoxNamePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextBoxNamePatient.Location = new System.Drawing.Point(162, 104);
+            this.TextBoxNamePatient.Name = "TextBoxNamePatient";
+            this.TextBoxNamePatient.Size = new System.Drawing.Size(147, 22);
+            this.TextBoxNamePatient.TabIndex = 4;
+            // 
+            // TextBoxPatronymicPatient
+            // 
+            this.TextBoxPatronymicPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextBoxPatronymicPatient.Location = new System.Drawing.Point(162, 132);
+            this.TextBoxPatronymicPatient.Name = "TextBoxPatronymicPatient";
+            this.TextBoxPatronymicPatient.Size = new System.Drawing.Size(147, 22);
+            this.TextBoxPatronymicPatient.TabIndex = 5;
+            // 
+            // LabelPatient
+            // 
+            this.LabelPatient.AutoSize = true;
+            this.LabelPatient.BackColor = System.Drawing.SystemColors.Window;
+            this.LabelPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelPatient.Location = new System.Drawing.Point(159, 48);
+            this.LabelPatient.Name = "LabelPatient";
+            this.LabelPatient.Size = new System.Drawing.Size(139, 16);
+            this.LabelPatient.TabIndex = 6;
+            this.LabelPatient.Text = "Данные пациента";
+            // 
+            // ButtonStart
+            // 
+            this.ButtonStart.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ButtonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonStart.Location = new System.Drawing.Point(148, 499);
+            this.ButtonStart.Name = "ButtonStart";
+            this.ButtonStart.Size = new System.Drawing.Size(161, 46);
+            this.ButtonStart.TabIndex = 7;
+            this.ButtonStart.Text = "НАЧАТЬ ОПРОС";
+            this.ButtonStart.UseVisualStyleBackColor = false;
+            this.ButtonStart.Click += new System.EventHandler(this.ButtonStart_Click);
+            // 
+            // ComboBoxSelectDoctor
+            // 
+            this.ComboBoxSelectDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ComboBoxSelectDoctor.FormattingEnabled = true;
+            this.ComboBoxSelectDoctor.Location = new System.Drawing.Point(394, 79);
+            this.ComboBoxSelectDoctor.Name = "ComboBoxSelectDoctor";
+            this.ComboBoxSelectDoctor.Size = new System.Drawing.Size(386, 24);
+            this.ComboBoxSelectDoctor.TabIndex = 8;
+            this.ComboBoxSelectDoctor.Text = "Выберите доктора...";
+            this.ComboBoxSelectDoctor.SelectedIndexChanged += new System.EventHandler(this.ComboBoxSelectDoctor_SelectedIndexChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1278, 598);
+            this.Controls.Add(this.ComboBoxSelectDoctor);
+            this.Controls.Add(this.ButtonStart);
+            this.Controls.Add(this.LabelPatient);
+            this.Controls.Add(this.TextBoxPatronymicPatient);
+            this.Controls.Add(this.TextBoxNamePatient);
+            this.Controls.Add(this.LabelPatronymicPatient);
+            this.Controls.Add(this.LabelNamePatient);
+            this.Controls.Add(this.LabelSurnamePatient);
+            this.Controls.Add(this.TextBoxSurnamePatient);
+            this.Name = "Form1";
+            this.Text = "Медицинский опрос";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox TextBoxSurnamePatient;
+        private System.Windows.Forms.Label LabelSurnamePatient;
+        private System.Windows.Forms.Label LabelNamePatient;
+        private System.Windows.Forms.Label LabelPatronymicPatient;
+        private System.Windows.Forms.TextBox TextBoxNamePatient;
+        private System.Windows.Forms.TextBox TextBoxPatronymicPatient;
+        private System.Windows.Forms.Label LabelPatient;
+        private System.Windows.Forms.Button ButtonStart;
+        private System.Windows.Forms.ComboBox ComboBoxSelectDoctor;
     }
 }
 
